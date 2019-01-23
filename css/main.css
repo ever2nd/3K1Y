@@ -1,0 +1,90 @@
+body
+{
+  margin:0;
+  padding:0;
+}
+#wrap
+{
+  width:1920px;
+  height:94px;
+  padding:0;
+  display: inline-block;
+}
+#header_logo{
+  display: inline-block;
+  margin : 0;
+  padding : 0;
+}
+#main_menu{
+  padding : 0;
+  height : 94px;
+  display: inline-block;
+  padding : 0;
+}
+#main_menu ul {
+  list-style : none;
+  margin : 0;
+  padding: 40px 0 0 0;
+
+}
+#main_menu ul li{
+  float:left;
+  margin : 0 100px 0;
+}
+#main_menu ul li a{
+  text-decoration: none;
+  font-family : "나눔고딕","nanumgodic";
+  font-size : 18px;
+  text-align: center;
+  color : #000;
+}
+#main_menu ul li a:hover {
+  color: #CC6666;
+  background-image: url(../Imges/main_back.gif);
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+#foot{
+  display: inline-block;
+  background-color: #333;
+  width: 1920px;
+  height: 145px;
+  background-image: url(../Imges/foot_back.png);
+}
+#company_name{
+  display: inline-block;
+  margin: 0 0 0 400px;
+  padding: 0;
+  color: #FFF;
+  font-family : "나눔고딕","nanumgodic";
+}
+#company_name p{
+  font-size: 11px;
+}
+#contact{
+  display: inline-block;
+  height: 145px;
+  margin: 0 0 0 250px;
+  padding-top: 0;
+  color: #FFF;
+  font-family : "나눔고딕","nanumgodic";
+}
+#contact p{
+  font-size: 11px;
+}
+#copyright{
+  display: inline-block;
+  font-size: 8px;
+  margin: 0 0 0 600px;
+  text-align: right;
+}
+#ever2nd{
+  color: #FFF;
+}
+#font{
+  color:#99999;
+}
+#main{
+    width: 1920px;
+    height: 726px;
+}
